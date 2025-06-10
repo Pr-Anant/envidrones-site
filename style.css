@@ -741,10 +741,10 @@
   }
 }
 
-.home-container4 {
+.home-logo-wrapper {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .home-image1 {
@@ -755,6 +755,6 @@
 .home-text1 {
   font-size: 2rem;
   font-weight: 700;
-  line-height: 1;
-  padding-top: 4px;
+  color: #00ff5e; /* your neon green */
+  margin: 0;
 }
