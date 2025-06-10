@@ -741,15 +741,20 @@
   }
 }
 
-/* Align logo icon and "EnviDrones" text in navbar */
 .home-container4 {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 30px;
+}
+
+.home-image1 {
+  height: 60px; /* Adjust this value to match text height */
+  width: auto;
 }
 
 .home-text1 {
-  padding-top: 4px; /* Adjust this value if needed */
-  font-size: 1.8rem;
+  font-size: 3rem;
   font-weight: 600;
+  line-height: 1;
+  padding-top: 6px; /* Adjust this down/up to perfectly center */
 }
