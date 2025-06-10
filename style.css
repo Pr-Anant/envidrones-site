@@ -741,18 +741,4 @@
   }
 }
 
-.home-logo-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
 
-.home-image1 {
-  height: 48px;
-  width: auto;
-}
-
-.home-text1 {
-  position: relative;
-  top: 4px; /* tweak this value up/down as needed */
-}
