@@ -740,3 +740,16 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Align logo icon and "EnviDrones" text in navbar */
+.home-container4 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.home-text1 {
+  padding-top: 4px; /* Adjust this value if needed */
+  font-size: 1.8rem;
+  font-weight: 600;
+}
