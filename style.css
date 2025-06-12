@@ -752,7 +752,7 @@
 }
 
 .hero-text-animate {
-  animation: slideFadeIn 1s ease-out forwards;
+  animation: slideFadeIn 2s ease-out forwards; /* Slowed to 2 seconds */
 }
 
 
