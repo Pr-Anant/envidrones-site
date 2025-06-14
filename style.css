@@ -760,7 +760,7 @@
 #particles-container {
   position: relative;
   width: 100%;
-  height: 100vh; /* NEW: This makes it fill the screen */
+  height: 100vh; /* Full screen height */
   background-color: transparent;
   overflow: hidden;
 }
@@ -776,16 +776,13 @@
 }
 
 .animated-hero-text {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%; /* NEW */
+  position: relative;
   z-index: 1;
-  display: flex; /* NEW */
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 4rem 2rem;
+  align-items: center;  /* center horizontally */
+  justify-content: center; /* center vertically (optional) */
   text-align: center;
+  padding: 4rem 2rem;
   color: white;
 }
