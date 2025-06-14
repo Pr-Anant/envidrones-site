@@ -760,9 +760,9 @@
 #particles-container {
   position: relative;
   width: 100%;
-  height: 100vh; /* Full screen height */
-  background-color: transparent;
+  height: 100vh;
   overflow: hidden;
+  background-color: transparent;
 }
 
 #particles-js {
@@ -778,11 +778,12 @@
 .animated-hero-text {
   position: relative;
   z-index: 1;
+  height: 100vh; /* full screen height */
   display: flex;
   flex-direction: column;
-  align-items: center;  /* center horizontally */
-  justify-content: center; /* center vertically (optional) */
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
   text-align: center;
-  padding: 4rem 2rem;
   color: white;
 }
