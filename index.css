@@ -318,7 +318,12 @@
 }
  
 .home-text7 {
-  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
  
 .home-project {
