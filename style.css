@@ -762,7 +762,6 @@
   width: 100%;
   height: auto;
   background-color: transparent;
-  z-index: 0;
   overflow: hidden;
 }
 
@@ -770,10 +769,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
+  width: 100%;
   z-index: 0;
-  pointer-events: none; /* prevents particle canvas from blocking clicks */
+  pointer-events: none;
 }
 
 .animated-hero-text {
