@@ -67,6 +67,7 @@
   width: 108px;
   height: 135px;
   object-fit: cover;
+  margin-top: 6px; /* Adjust this value as needed */
 }
  
 .home-text1 {
